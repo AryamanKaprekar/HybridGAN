@@ -1,2 +1,3 @@
 # HybridGAN
 Hybrid GAN model Backbone+ASPP+FPN+PatchDiscriminator
+Custom hybrid-GAN model combining three key components. Generative Adversarial Networks (GANs) employ adversarial training to refine segmentation boundaries and improve prediction quality. Feature Pyramid Networks (FPN) enable multi-scale feature extraction, capturing fine details at high resolutions and semantic information at low resolutions to handle objects of varying sizes. Atrous Spatial Pyramid Pooling (ASPP) captures contextual information through parallel dilated convolutions at multiple receptive fields, enabling understanding of spatial relationships without resolution loss. 
