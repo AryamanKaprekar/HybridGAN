@@ -195,14 +195,6 @@ Average mPA  over 5 folds: 0.8532 ± 0.0278
 
 ---
 
-## Future Improvements
-
-- Replace KMeans-based pseudo-labels with real semantic masks  
-- Add mixed precision (AMP) for faster training  
-- Integrate visualization for predicted vs ground-truth segmentation  
-- Experiment with other backbones (`ConvNeXt`, `Swin Transformer`)  
-
----
 
 ## References
 
@@ -214,6 +206,6 @@ Average mPA  over 5 folds: 0.8532 ± 0.0278
 
 ---
 
-**Author:** Your Name  
+**Author:** Aryaman Kaprekar, Aadyot Singh, Hrishikesh Palan, S. S. Sharath  
 **License:** MIT  
 **Frameworks:** PyTorch, TIMM, scikit-learn
